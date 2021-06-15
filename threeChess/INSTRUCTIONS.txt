@@ -1,0 +1,19 @@
+Instructions for running code.
+
+I used the text editor BlueJ so you can just go to src and then click on the package.bluej to open the file. 
+
+Then to run the tournament right-click on the ThreeChess class and click on void main. 
+
+To adjust the number of games played, simply edit the ThreeChess.java. In the void main, edit the 3rd argument of the last call of the method tournament.
+If you want 50 games to be played, just change the 3rd argument to 50. 
+
+
+If using a normal text editor like Vscode.
+
+To compile the files, in the root directory use 
+
+javac -d bin src/threeChess/\*.java src src/threeChess/agents/\*.java
+
+To run a basic game, use 
+
+java -cp bin/ threeChess.ThreeChess

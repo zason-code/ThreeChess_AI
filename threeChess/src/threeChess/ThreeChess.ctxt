@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=ThreeChess
+comment0.text=\r\n\ Class\ with\ static\ methods\ for\ running\ tournaments\ and\ playing\ threeChess\ matches.\r\n\ @author\ Tim\ French\r\n*
+comment1.params=bots\ timeLimit\ numGames\ displayOn\ logFile
+comment1.target=void\ tournament(Agent[],\ int,\ int,\ java.lang.Boolean,\ java.lang.String)
+comment1.text=\r\n\ Runs\ a\ tournament\ for\ a\ group\ of\ agents.\r\n\ The\ games\ in\ the\ tournament\ will\ have\ the\ specified\ time\ limit.\r\n\ If\ a\ non-zero\ number\ of\ games\ are\ specified,\ the\ agents\ will\ be\ randomly\ assigned\ to\ games.\r\n\ If\ 0\ is\ specified,\ every\ agent\ will\ play\ every\ other\ pair\ of\ agents,\ with\ the\ colours\ of\ the\ pieces\ randomly\ assigned.\r\n\ @param\ bots\ an\ array\ of\ Agents\ to\ compete\ in\ the\ contest.\r\n\ @param\ timeLimit\ the\ cumulative\ time\ each\ player\ has\ (in\ seconds).\ To\ specify\ an\ untimed\ game,\ set\ as\ less\ than\ or\ equal\ to\ zero.\r\n\ @param\ displayOn\ a\ boolean\ flag\ for\ whether\ the\ game\ should\ be\ graphically\ displayed\r\n\ @param\ logFile\ a\ FileName\ to\ print\ the\ game\ logs\ to.\ If\ this\ can't\ be\ found,\ or\ is\ null,\ System.out\ will\ be\ used\ instead.\r\n*
+comment2.params=blue\ green\ red\ timeLimit\ logger\ displayOn
+comment2.target=int[]\ play(Agent,\ Agent,\ Agent,\ int,\ java.io.PrintStream,\ boolean)
+comment2.text=\r\n\ Runs\ a\ threeChess\ game\ between\ three\ players.\r\n\ There\ are\ options\ to\ display\ the\ board,\ and\ log\ the\ game\ to\ a\ text\ file.\r\n\ A\ time\ limit\ may\ also\ be\ specified\ for\ a\ timed\ game.\r\n\ @param\ blue\ the\ agent\ playing\ the\ blue\ pieces.\r\n\ @param\ green\ the\ agent\ playing\ the\ green\ pieces.\r\n\ @param\ red\ the\ Agent\ playing\ the\ red\ pieces.\r\n\ @param\ timeLimit\ the\ cumulative\ time\ each\ player\ has\ (in\ seconds).\ To\ specify\ an\ untimed\ game,\ set\ as\ less\ than\ or\ equal\ to\ zero.\r\n\ @param\ logger\ a\ printStream\ to\ write\ the\ game\ moves\ to.\r\n\ @param\ displayOn\ a\ boolean\ flag\ for\ whether\ the\ game\ should\ be\ graphically\ displayed\r\n\ @return\ an\ array\ of\ three\ ints,\ the\ scores\ for\ blue,\ green\ and\ red,\ in\ that\ order.\r\n*
+comment3.params=blue\ green\ red
+comment3.target=int[]\ play(Agent,\ Agent,\ Agent)
+comment3.text=\r\n\ Runs\ a\ timed\ threeChess\ game\ between\ three\ players\r\n\ with\ a\ graphical\ board\ and\ moves\ logged\ to\ System.out.\r\n\ @param\ blue\ the\ agent\ playing\ the\ blue\ pieces.\r\n\ @param\ green\ the\ agent\ playing\ the\ green\ pieces.\r\n\ @param\ red\ the\ agent\ playing\ the\ red\ pieces.\r\n\ @return\ an\ array\ of\ three\ ints,\ the\ scores\ for\ blue,\ green\ and\ red,\ in\ that\ order.\r\n*
+comment4.params=
+comment4.target=void\ play()
+comment4.text=\r\n\ Default\ play\ scenario\ for\ three\ manual\ agents,\ no\ time\ limit,\r\n\ logged\ to\ System.out\ with\ display\ on.\r\n*
+comment5.params=
+comment5.target=void\ playCheat()
+comment5.text=\ \r\n\ This\ plays\ a\ manual\ game\ where\ all\ rules\ are\ ignored.\r\n\ This\ effectively\ allows\ you\ to\ move\ pieces\ around\ the\ board\ for\ simulating\ positions.\r\n*
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\r\n\ This\ method\ can\ be\ customised\ to\ run\ tournaments\ with\ agents\ added\ in\ the\ code\ (add\ them\ to\ array\ bots),\ \r\n\ or\ manual\ games\ between\ players,\ or\ a\ cheat\ mode\ which\ is\ effectively\ a\ board\ that\ can\ be\ freely\ manipulated.\r\n\ Run\ program\ with\ parameter\ "manual"\ for\ a\ game\ with\ moves\ added\ in\ the\ command\ line,\ "cheat"\ to\ ignore\ all\ rules,\ and\ no\ parameters\ to\ run\ a\ tournament\ between\ agents\ listed\ in\ bots.\r\n
+numComments=7

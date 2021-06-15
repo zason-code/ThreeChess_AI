@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=GUIAgent
+comment0.text=\r\n\ An\ agent\ that\ allows\ the\ user\ to\ select\ its\ moves\ through\ the\ display.\r\n
+comment1.params=
+comment1.target=GUIAgent()
+comment1.text=A\ no\ argument\ constructor,\ required\ for\ tournament\ management.\ *
+comment2.params=name
+comment2.target=GUIAgent(java.lang.String)
+comment3.params=
+comment3.target=boolean\ isAutonomous()
+comment4.params=board
+comment4.target=threeChess.Position[]\ playMove(threeChess.Board)
+comment4.text=Gets\ and\ returns\ a\ move\ from\ the\ display\ for\ this\ agent.\ *
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=@return\ the\ Agent's\ name,\ for\ annotating\ game\ description.\ *
+comment6.params=finalBoard
+comment6.target=void\ finalBoard(threeChess.Board)
+comment6.text=Unused\ for\ the\ GUI\ agent.\ *
+numComments=7

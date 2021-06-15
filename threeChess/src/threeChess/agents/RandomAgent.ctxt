@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=RandomAgent
+comment0.text=\r\n\ An\ interface\ for\ AI\ bots\ to\ implement.\r\n\ They\ are\ simply\ given\ a\ Board\ object\ indicating\ the\ positions\ of\ all\ pieces,\ \r\n\ the\ history\ of\ the\ game\ and\ whose\ turn\ it\ is,\ and\ they\ respond\ with\ a\ move,\ \r\n\ expressed\ as\ a\ pair\ of\ positions.\r\n*
+comment1.params=
+comment1.target=RandomAgent()
+comment1.text=\r\n\ A\ no\ argument\ constructor,\ \r\n\ required\ for\ tournament\ management.\r\n*
+comment2.params=board
+comment2.target=threeChess.Position[]\ playMove(threeChess.Board)
+comment2.text=\r\n\ Play\ a\ move\ in\ the\ game.\ \r\n\ The\ agent\ is\ given\ a\ Board\ Object\ representing\ the\ position\ of\ all\ pieces,\ \r\n\ the\ history\ of\ the\ game\ and\ whose\ turn\ it\ is.\ \r\n\ They\ respond\ with\ a\ move\ represented\ by\ a\ pair\ (two\ element\ array)\ of\ positions\:\ \r\n\ the\ start\ and\ the\ end\ position\ of\ the\ move.\r\n\ @param\ board\ The\ representation\ of\ the\ game\ state.\r\n\ @return\ a\ two\ element\ array\ of\ Position\ objects,\ where\ the\ first\ element\ is\ the\ \r\n\ current\ position\ of\ the\ piece\ to\ be\ moved,\ and\ the\ second\ element\ is\ the\ \r\n\ position\ to\ move\ that\ piece\ to.\r\n*
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ @return\ the\ Agent's\ name,\ for\ annotating\ game\ description.\r\n*
+comment4.params=finalBoard
+comment4.target=void\ finalBoard(threeChess.Board)
+comment4.text=\r\n\ Displays\ the\ final\ board\ position\ to\ the\ agent,\ \r\n\ if\ required\ for\ learning\ purposes.\ \r\n\ Other\ a\ default\ implementation\ may\ be\ given.\r\n\ @param\ finalBoard\ the\ end\ position\ of\ the\ board\r\n*
+numComments=5
